@@ -1,0 +1,46 @@
+/* style.css file */
+
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.sidenav {
+  padding-top: 30px;
+  height: 100%;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 50%
+  margin: auto;
+  min-height:200px;
+}
+.well {
+  min-height: 500px;
+}
+.footer {
+  height: 60px;
+  background-color: #333;
+  color: white;
+
+}
+.footer p {
+  font-weight: bold;
+  line-height: 60px;
+
+}
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;} 
+}
