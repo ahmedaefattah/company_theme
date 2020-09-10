@@ -1,6 +1,6 @@
 # Company Theme 
 
-## Simple theme using 
+### Simple theme using 
   
 * [Bootstrap v3.4.1](http://getbootstrap.com)
 
